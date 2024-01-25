@@ -1,4 +1,4 @@
-Genotek Landing Page Design Document
+# Genotek Landing Page Design Document
 Design Choices:
 
 Header Section:
@@ -13,7 +13,7 @@ Product Image: Featured a product image with a call-to-action, directing users t
 Download Button: Provided a prominent download button for product information, encouraging lead generation.
 Contact Information: Displayed essential contact details for user inquiries.
 Case Studies Section:
-# This section is taken from another website to demonstrate that it will impact on client to choose Genotek by taking look on the previous work.
+<!-- This section is taken from another website to demonstrate that it will impact on client to choose Genotek by taking look on the previous work. -->
 Grid Layout: Organized case studies in a grid layout for a clean and structured presentation.
 Clickable Images: Each case study image is clickable, directing users to detailed case study pages.
 Relevant Content: Included case studies from similar industries to resonate with the target audience.
