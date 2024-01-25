@@ -1,0 +1,233 @@
+.main-container {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex; /* Making the nav bar thiing section */
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  z-index: 999;
+}
+.topcenter {
+  flex: 10;
+  /* border:2px solid black ; */
+}
+.logo {
+  width: 170px;
+  height: 90px;
+}
+.topitem {
+  display: inline-block;
+  margin-right: 2%;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.topright {
+  /* border: 2px solid black; */
+  flex: 6;
+  display: inline-block;
+}
+.centeritem {
+  list-style-type: none;
+}
+.searchbar {
+  width: 300px;
+  height: 30px;
+  border: 2px solid rgb(163, 161, 161);
+  background-color: transparent;
+}
+.search{
+  width:100px;
+  height: 30px;
+  color: rgb(254, 254, 254);
+  background-color: rgb(245, 104, 61);
+  border: 2px solid rgb(245, 104, 61);
+}
+/* image section */
+.container {
+  display: flex;
+  padding: 1%;
+  /* border:2px solid black; */
+}
+.box-conatiner1 {
+  /* border:2px solid black; */
+  padding: 2%;
+  flex: 10;
+  margin: 4%;
+  background-color: transparent;
+}
+.mySlides {
+  display: none;
+  height: 100%;
+  /* border:2px solid rgb(255, 7, 7); */
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border: none;
+  height: 100%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+.box-conatiner2 {
+  /* border:2px solid black; */
+  flex: 4;
+  padding: 1%;
+}
+iframe {
+  border: none;
+}
+/* contact section */
+.contact{
+  /* border: 2px solid black; */
+  margin: 0%;
+  display: flex;
+  padding: 7%;
+  background-color: rgb(237, 234, 234);
+}
+.left-box,.right-box{
+  flex: 5;
+  margin:3%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-img{
+  flex: 6;
+}
+.img-tag{
+  flex: 3;
+  padding: 4%;
+  font-size: 20px;
+  text-align: right;
+  color: #ffffff;
+  background-color: rgb(164, 61, 32);
+}
+.right-box li{
+  padding: 3%;
+}
+.input-mail{
+  margin:4%;
+  width: 400px;
+  height: 30px;
+  text-align: center;
+}
+.details{
+  margin: 20px 30px 40px 20px;
+}
+.download{
+  margin-left: 8%;
+  margin-bottom: 7%;
+  width: 300px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-size: larger;
+  border: none;
+  cursor: pointer;
+}
+.download:hover{
+  background-color: rgb(68, 68, 68);
+}
+.social{
+  margin-left: 28px;
+  font-size: 12px;
+}
+
+h1{
+  text-align: center;
+  }
+/* grid section */
+.section{
+  padding: 2% 8% 5% 8%;
+}
+.grid-section{      
+  padding: 1%;
+  display: flex;
+}
+.row1{
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background-color: rgb(125, 125, 125);
+  color: white;
+  text-align: center;
+  display: flex;
+}
+.list1{
+  flex: 5;
+  padding: 3%;
+  text-align: justify ;
+}
+.list2{
+  flex: 8;
+  padding: 3%;
+  text-align: justify ;
+}
+.list3{
+  flex: 8;
+  padding: 3%;
+  text-align: justify ;
+  line-height: 24px;
+}
+li{
+  list-style-type: none;
+  padding: 2%;
+  text-align: left;
+}
+h2{
+  text-align: justify;
+}
